@@ -66,7 +66,8 @@ thats it.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This
+Listen for an incoming connection from a reverse shell, and attempt to initialize "smart" mode
+`./rs.py --smart 4444`
 
 <!-- ROADMAP -->
 ## Roadmap
