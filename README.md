@@ -13,19 +13,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/jsovernigo/pyrs">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">PYRS</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
-    <br />
-    <a href="https://github.com/jsovernigo/pyrs"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/jsovernigo/pyrs">View Demo</a>
+    For when you just don't have Netcat.
     ·
     <a href="https://github.com/jsovernigo/pyrs/issues">Report Bug</a>
     ·
@@ -35,14 +26,14 @@
 
 
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Pyrs is a python3 built simple reverse shell that automates Phineas Fisher's python-bash+stty raw
+dumb terminal upgrade method. It is basically a wrapper around a `stty raw -echo` call to reconfigure
+a terminal to accept and send control sequences over a 'dumb' pseudo-tty connection. It is by no means
+complete, but makes for a nicer backdoor shell when you finally get that foothold onto the target.
+
 
 
 ### Built With
